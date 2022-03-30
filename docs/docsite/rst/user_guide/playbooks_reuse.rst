@@ -1,10 +1,10 @@
 .. _playbooks_reuse:
 
 **************************
-Re-using Ansible artifacts
+Re-using Ansible artefacts
 **************************
 
-You can write a simple playbook in one very large file, and most users learn the one-file approach first. However, breaking your automation work up into smaller files is an excellent way to organize complex sets of tasks and reuse them. Smaller, more distributed artifacts let you re-use the same variables, tasks, and plays in multiple playbooks to address different use cases. You can use distributed artifacts across multiple parent playbooks or even multiple times within one playbook. For example, you might want to update your customer database as part of several different playbooks. If you put all the tasks related to updating your database in a tasks file or a role, you can re-use them in many playbooks while only maintaining them in one place.
+You can write a simple playbook in one very large file, and most users learn the one-file approach first. However, breaking your automation work up into smaller files is an excellent way to organize complex sets of tasks and reuse them. Smaller, more distributed artefacts let you re-use the same variables, tasks, and plays in multiple playbooks to address different use cases. You can use distributed artefacts across multiple parent playbooks or even multiple times within one playbook. For example, you might want to update your customer database as part of several different playbooks. If you put all the tasks related to updating your database in a tasks file or a role, you can re-use them in many playbooks while only maintaining them in one place.
 
 .. contents::
    :local:
@@ -12,7 +12,7 @@ You can write a simple playbook in one very large file, and most users learn the
 Creating re-usable files and roles
 ==================================
 
-Ansible offers four distributed, re-usable artifacts: variables files, task files, playbooks, and roles.
+Ansible offers four distributed, re-usable artefacts: variables files, task files, playbooks, and roles.
 
   - A variables file contains only variables.
   - A task file contains only tasks.
